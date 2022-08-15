@@ -1,0 +1,90 @@
+#App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  --primary-color: #1266cc;
+  --secondary-color: #f96400;
+  --flash-color: rgb(89, 255, 0);
+  --gray: #999;
+  --light-gray: #e0e0e0;
+  --dark-gray: #777;
+  background-color: #ebb86bcd;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.header{
+  position: relative;
+  background-color: rgb(218, 30, 87);
+  margin-top: -10rem;
+  margin-bottom: 3rem;
+  width: 55rem;
+  padding: 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+   width:80%;
+    min-width: 50rem;
+    max-width: 100rem;
+    height: 40vh;
+   margin: 1rem auto;
+   align-items: center;
+   justify-content: center;
+   background-color: bisque;
+   position: relative;
+}
+.form span{
+  font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.form p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #090000;
+}
+.form h3{
+  margin-top: -4rem;
+  margin-bottom: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
+.form label{
+ font-size:1.4rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: bolder;
+}
+.form input{
+  width: 50%;
+  height:24px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+.form button{
+  margin-top: 1rem;
+  width: 13rem;
+  height: 3.5rem;
+  font-size:1.5rem;
+  font-weight: bolder;
+  padding: 1.2rem auto;
+  overflow: hidden;
+  background-color:burlywood;
+  border-width: 0.6px;
+}
+
+
+
+
+
+
